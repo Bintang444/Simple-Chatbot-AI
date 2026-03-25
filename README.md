@@ -8,7 +8,7 @@ Chatbot ini adalah prototipe aplikasi percakapan berbasis Streamlit dan Google G
 - History chat tersimpan di `st.session_state`
 - Reset chat sekali klik
 - Memanggil model Google Gemini 2.5 (gemini-2.5-flash)
-- System prompt memaksa jawaban: bahasa gaul anak Jakarta, singkat, pake emoji
+- System prompt
 
 ## Persyaratan
 
