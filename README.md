@@ -15,6 +15,7 @@ Chatbot ini adalah prototipe aplikasi percakapan berbasis Streamlit dan Google G
 - Python 3.10+
 - `streamlit`
 - `google-generativeai`
+- `python-dotenv`
 
 ## Setup
 
@@ -29,11 +30,11 @@ Chatbot ini adalah prototipe aplikasi percakapan berbasis Streamlit dan Google G
    pip install streamlit google-generativeai
    ```
 3. Atur API key:
-   - Ubah `YOUR_API_KEY` di `chatbot.py` ke API key kamu, atau gunakan `os.environ` agar lebih aman.
-   - Contoh (Linux/macOS):
-     ```bash
-     export GEMINI_API_KEY="your_key_here"
-     ```
+   - Buat file `.env` di root project
+   - Isi dengan:
+```
+     GEMINI_API_KEY=your_key_here
+```
 4. Jalankan:
    ```bash
    streamlit run chatbot.py
